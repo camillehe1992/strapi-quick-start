@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "my-strapi-project",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -7,14 +7,15 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.15.2",
-    "@strapi/plugin-users-permissions": "4.15.2",
-    "@strapi/plugin-i18n": "4.15.2",
-    "@strapi/plugin-cloud": "4.15.2",
+    "@strapi/strapi": "4.25.5",
+    "@strapi/plugin-users-permissions": "4.25.5",
+    "@strapi/plugin-i18n": "4.25.5",
+    "@strapi/plugin-cloud": "4.25.5",
     "mysql": "2.18.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -25,7 +26,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "60d29136-6d7a-4e76-8018-d91578787459"
+    "uuid": "882a22f8-4120-4741-a4ce-90a01cd8a08c"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
