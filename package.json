@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "BUILD_PATH='./dist' strapi build",
+    "build": "strapi build",
     "strapi": "strapi",
     "deploy": "strapi deploy"
   },
@@ -24,9 +24,7 @@
   "author": {
     "name": "A Strapi developer"
   },
-  "strapi": {
-    "uuid": "882a22f8-4120-4741-a4ce-90a01cd8a08c"
-  },
+  "strapi": {},
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
